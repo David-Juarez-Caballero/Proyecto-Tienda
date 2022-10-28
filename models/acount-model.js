@@ -2,7 +2,7 @@ const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
 
 const Acount = new Schema({
-    money: {type: Number, required:true},
+    money: {type: double, required:true},
     collectibles: {type: [String], required:true},
     },
     {timestamps: true}
